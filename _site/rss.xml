@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-        <title>HOME</title>
-        <description>HOME - Li Zhang</description>
+        <title>张瓅的博客</title>
+        <description>张瓅的博客 - Li Zhang</description>
         <link>http://zlvb.github.io</link>
         <atom:link href="http://zlvb.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Tue, 22 Dec 2015 22:45:35 +0800</lastBuildDate>
-        <pubDate>Tue, 22 Dec 2015 22:45:35 +0800</pubDate>
+        <lastBuildDate>Tue, 22 Dec 2015 23:03:01 +0800</lastBuildDate>
+        <pubDate>Tue, 22 Dec 2015 23:03:01 +0800</pubDate>
         <ttl>60</ttl>
 
 
