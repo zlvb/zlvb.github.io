@@ -5,8 +5,8 @@
         <description>HOME - Li Zhang</description>
         <link>http://zlvb.github.io</link>
         <atom:link href="http://zlvb.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Tue, 22 Dec 2015 21:56:34 +0800</lastBuildDate>
-        <pubDate>Tue, 22 Dec 2015 21:56:34 +0800</pubDate>
+        <lastBuildDate>Tue, 22 Dec 2015 22:45:35 +0800</lastBuildDate>
+        <pubDate>Tue, 22 Dec 2015 22:45:35 +0800</pubDate>
         <ttl>60</ttl>
 
 
@@ -44,6 +44,7 @@ fds
 ds
 fsd
 fsd
+&lt;!--more--&gt;
 fsdf
 &lt;/pre&gt;
 </description>
@@ -59,6 +60,7 @@ fsdf
 sfsdfsdfddsfdsfdsfsdfssdfdsf
 sfsdfsdfddsfdsfdsfsdfssdfdsfsdf
 sd
+&lt;!--more--&gt;
 fsd
 fds
 fds
@@ -83,6 +85,7 @@ sd
 fsd
 fds
 fds
+&lt;!--more--&gt;
 ds
 fsd
 fsd
@@ -150,10 +153,10 @@ Heavily trafficked dynamic blogs must employ a caching layer that ultimately per
   &lt;li&gt;Ability to publish via git.&lt;/li&gt;
   &lt;li&gt;Ability to host your blog on a static web-server.&lt;/li&gt;
   &lt;li&gt;Ability to host freely on GitHub Pages.&lt;/li&gt;
-  &lt;li&gt;No database required.&lt;/li&gt;
+  &lt;li&gt;No database required.
+&lt;!--more--&gt;
+# How Jekyll Works&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h1 id=&quot;how-jekyll-works&quot;&gt;How Jekyll Works&lt;/h1&gt;
 
 &lt;p&gt;The following is a complete but concise outline of exactly how Jekyll works.&lt;/p&gt;
 

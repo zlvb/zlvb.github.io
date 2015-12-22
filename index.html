@@ -8,12 +8,27 @@ is_index: true
 
 <ul class="posts">
   {% for post in paginator.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-    {% if post.summary} %}
-    <p>{{post.summary}}</p>
+    <h3>{{ post.title }}</h3>
+    {% if post.summary %}
+      <div>{{post.summary}}<p>
+        <p><a href="{{ post.url | prepend: site.baseurl }}">阅读全文...</a></p>
+        <span> &raquo; {{ post.date | date: "%A, %B %-d, %Y" }}
+        </span>
+
+      </div>
+    {% else if post.excerpt %}
+      <div>{{ post.excerpt }}
+        <p><a href="{{ post.url | prepend: site.baseurl }}">阅读全文...</a></p>
+        <span> &raquo; {{ post.date | date: "%A, %B %-d, %Y" }}
+        </span>
+
+    </div>
     {% else %}
-    <p>{{post.content}}</p>
+      <div>{{post.content}}</div>
+      <span> &raquo; {{ post.date | date: "%A, %B %-d, %Y" }}
+      </span>
     {% endif %}
+    <hr />
   {% endfor %}
 </ul>
 
