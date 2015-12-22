@@ -1,15 +1,15 @@
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title
-
+paginate: 2
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
-
+gems: [jekyll-paginate]
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : 张瓅的博客
-tagline: Site Tagline
+title : HOME
+tagline:
 author :
   name : Li Zhang
   email : zlvbvbzl@gmail.com

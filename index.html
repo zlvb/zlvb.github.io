@@ -1,0 +1,29 @@
+---
+layout: page
+title: 张瓅的博客
+tagline: 文章列表
+is_index: true
+---
+{% include JB/setup %}
+
+<ul class="posts">
+  {% for post in paginator.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<div class="pagination" id="bottom_page">
+		<ul>
+			{% if paginator.previous_page %}
+				{% if paginator.previous_page == 1 %}
+				<li class="previous"><a href="{{ linkhome }}">&larr; Previous</a></li>
+				{% else %}
+				<li class="previous"><a href="{{ site.baseurl }}/page{{ paginator.previous_page }}">&larr; Previous</a></li>
+				{% endif %}
+			{% endif %}
+				<li><p>Page {{ paginator.page }} of {{ paginator.total_pages }}</p></li>
+			{% if paginator.next_page %}
+				<li class="next"><a href="{{ site.baseurl }}/page{{ paginator.next_page }}">Next &rarr;</a></li>
+			{% endif %}
+		</ul>
+	</div>

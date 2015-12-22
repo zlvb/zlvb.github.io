@@ -1,4 +1,5 @@
 
+http://zlvb.github.io/about
 http://zlvb.github.io/archive
 http://zlvb.github.io/atom.xml
 http://zlvb.github.io/categories
@@ -7,5 +8,11 @@ http://zlvb.github.io/pages
 http://zlvb.github.io/rss.xml
 http://zlvb.github.io/sitemap.txt
 http://zlvb.github.io/tags
+http://zlvb.github.io/page2/
+http://zlvb.github.io/page3/
 
+http://zlvb.github.io/2015/12/22/hello-world123
+http://zlvb.github.io/2015/12/22/hello-world11233
+http://zlvb.github.io/2015/12/22/hello-world112
+http://zlvb.github.io/2015/12/22/hello-world11
 http://zlvb.github.io/lessons/2011/12/29/jekyll-introduction
